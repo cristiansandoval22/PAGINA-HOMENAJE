@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.2;
+}
+body{
+    background-color: rgb(232, 232, 233);
+}
+.container{
+    max-width: 1400;
+    width: 700px;
+    margin: 0 auto;
+    padding: 0 2em;
+    font-size: 1.1em;
+    background-color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 0.1em 0.2em;
+}
+/* titulo y subtitulo de la web */
+.title{
+    text-align: center;
+}
+.sub-title{
+    text-align: center  ;
+}
+
+/* estilos a la imagen */
+img {
+    max-width: 100%;
+    width: 500px;
+    height: 300px;  
+    object-fit: cover;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.img-div{
+    width: 600px;
+    height: 336px;
+    margin: 10px auto;
+    background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+   
+}
+.img-caption{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.4em 0;   
+}
+
+/* informacion de la pagina */
+.description{
+    text-align: justify ;
+    padding-inline: 0.8em;
+    margin-top: 1em;
+    
+}
+.h2{
+    text-align: left;
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+.p{
+    padding-inline: 0.8em;
+    
+}
+
+.conclusion{
+    text-align: center;
+}
+/* mas informacion del articulo */
+.mas-info{
+    margin-top: 2em;
+}
+/* footer del blog */
+.footer{
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em 0;
+}
